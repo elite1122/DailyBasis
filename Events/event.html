@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="event.css">
+</head>
+
+<body>
+  <div style="display:inline;">
+    <div class="hero">
+
+      <div class="nav" style="background-color:#3a017a" style="position:fixed" style="width: 100%"
+        style="margin-right: 10px;">
+        <img src="../authentication/images/Daily-Basis.png" class="logo">
+        <ul>
+          <li class=""><a href="../authentication/start.php" style="color:#ffffff">Home</a></li>
+          <li><a href="../Weather/index.html" style="color:#ffffff">Weather</a></li>
+          <li><a href="../NoteBook/index.html" style="color:#ffffff">NoteBook</a></li>
+          <li><a href="../Daily-Quotes/quotes.html" style="color:#ffffff">Daily-Quotes</a></li>
+          <li><a href="../Events/event.html" style="color:#ffffff">Event</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <h1 align="center"><br><br> <b> Upcoming Events </b> <br></h1>
+  <div id="events-container"></div>
+
+  <form id="event-form" method="post" enctype="multipart/form-data">
+    <label for="event-title">Event Title:</label>
+    <input type="text" id="event-title" name="title" required>
+    <label for="event-date">Event Date:</label>
+    <input type="date" name="date" id="event-date" required>
+    <button type="submit" name="add_event_btn">Add Event</button>
+  </form>
+
+  <script src="event.js"></script>
+</body>
+
+</html>

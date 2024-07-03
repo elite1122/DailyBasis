@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  
+}
+body{
+  background-color: #f3f6f7;
+}
+.hero {
+  
+  height: auto;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.nav {
+  width: 100%;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a017a;
+  height: 18px;
+  position: fixed;
+  border-bottom: 5px solid #0f95ce;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+  display: block;
+}
+
+.nav ul li a:hover {
+  color: #ff4321;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.event {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.event-date {
+  font-size: 14px;
+  color: #888888;
+}
+
+#event-form {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#event-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#event-form input[type="text"],
+#event-form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#event-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#event-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+.hero {
+  height: auto;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.nav {
+  width: 100%;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3a017a;
+  height: 18px;
+  position: fixed;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+  display: block;
+}
+
+.nav ul li:hover {
+  color: #ff4321;
+}
+.delete-button{
+  background-color: #ff2600;
+}
+.update-button{
+  background-color: rgb(0, 255, 0);
+}
+.Footer {
+  background-color: #14021b;
+  margin-block-start: 1px;
+  margin-top: 30px;
+}
+
+.Footer p {
+  color: #adadad;
+  line-height: 28px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
